@@ -1,0 +1,14 @@
+current directory: E:/Documents/Repositories/Thanos/thanos-coin.github.io/vendor/bundle/ruby/2.6.0/gems/posix-spawn-0.3.15/ext
+C:/Ruby26-x64/bin/ruby.exe -I C:/Ruby26-x64/lib/ruby/2.6.0 -r ./siteconf20210225-29892-7pz4pu.rb extconf.rb
+
+current directory: E:/Documents/Repositories/Thanos/thanos-coin.github.io/vendor/bundle/ruby/2.6.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: E:/Documents/Repositories/Thanos/thanos-coin.github.io/vendor/bundle/ruby/2.6.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR="
+make: Nothing to be done for 'default'.
+
+current directory: E:/Documents/Repositories/Thanos/thanos-coin.github.io/vendor/bundle/ruby/2.6.0/gems/posix-spawn-0.3.15/ext
+make "DESTDIR=" install
+make: Nothing to be done for 'install'.
