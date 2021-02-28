@@ -9,6 +9,12 @@
   src: url("../font/thanos.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'ThanosNum';
+  src: url("../font/thanos.ttf") format("truetype");
+  unicode-range: U+0030-0039;
+}
+
 html {
   height: 100%;
 }
@@ -64,11 +70,18 @@ h6 {
   z-index: 1;
 }
 
+#countdown {
+  font-family: 'ThanosNum';
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
   padding-bottom: 3rem;
   z-index: 2;
+  height: 80%;
 }
 
 .masthead .masthead-bg {
@@ -86,10 +99,16 @@ h6 {
 }
 
 .masthead .masthead-content h1 {
+  text-align: center;
   font-size: 2.5rem;
 }
 
+.masthead .masthead-content h3 {
+  text-align: center;
+}
+
 .masthead .masthead-content p {
+  text-align: center;
   font-size: 1.2rem;
 }
 
@@ -128,9 +147,14 @@ h6 {
     padding-right: 10rem;
   }
   .masthead .masthead-content h1 {
+    text-align: left;
     font-size: 3.5rem;
   }
+  .masthead .masthead-content h3 {
+    text-align: left;
+  }
   .masthead .masthead-content p {
+    text-align: left;
     font-size: 1.3rem;
   }
 }

@@ -11,6 +11,12 @@
     font-family: 'Thanos';
     src: url('../font/thanos.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'ThanosNum';
+    src: url('../font/thanos.ttf') format('truetype');
+    unicode-range: U+0030-0039;
+}
+
 // Font Mixins
 @mixin body-font {
   font-family: 'Tahoma';
